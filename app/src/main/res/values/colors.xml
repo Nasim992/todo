@@ -7,4 +7,14 @@
     <color name="teal_700">#FF018786</color>
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
+    <color name="colorPrimary">#004AAD</color>
+    <color name="colorPrimaryVariant">#003380</color> <!-- A slightly darker shade for variant -->
+    <color name="colorOnPrimary">#FFFFFF</color>   <!-- Color for text/icons on top of primary -->
+
+    <color name="colorSecondary">#007AB8</color> <!-- Example secondary, choose one you like -->
+    <color name="colorSecondaryVariant">#005F91</color>
+    <color name="colorOnSecondary">#FFFFFF</color>
+
+    <!-- You can also define your specific color with a custom name -->
+    <color name="my_app_blue">#004AAD</color>
 </resources>

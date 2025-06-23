@@ -15,5 +15,7 @@ data class TodoItem(
     @ColumnInfo(name = "creation_date") // Explicit column name
     val creationDate: Long = System.currentTimeMillis(), // Default to current time on creation
     @ColumnInfo(name = "update_date")
-    var updateDate: Long = System.currentTimeMillis() // Default to current time, will be updated
+    var updateDate: Long = System.currentTimeMillis(), // Default to current time, will be updated
+    @ColumnInfo(name = "due_date") // New field
+    var dueDate: Long? = null
 )
